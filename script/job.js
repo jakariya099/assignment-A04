@@ -3,7 +3,7 @@ const jobCards = document.querySelectorAll(".job-card");
 
 document.getElementById("totalCount").innerText = jobCards.length;
 
-// INTERVIEW BUTTON
+ 
 document.querySelectorAll(".interview-btn").forEach(function(button) {
 
   button.addEventListener("click", function() {
@@ -21,7 +21,7 @@ document.querySelectorAll(".interview-btn").forEach(function(button) {
 });
 
 
-// REJECTED BUTTON
+ 
 document.querySelectorAll(".rejected-btn").forEach(function(button) {
 
   button.addEventListener("click", function() {
@@ -39,7 +39,7 @@ document.querySelectorAll(".rejected-btn").forEach(function(button) {
 });
 
 
-// COUNT UPDATE FUNCTION
+ 
 function updateCount() {
 
   let interview = 0;
@@ -62,7 +62,7 @@ function updateCount() {
 }
 
 
-// FILTER BUTTON
+ 
 
 document.getElementById("allBtn").addEventListener("click", function(){
 
